@@ -1,4 +1,4 @@
-package PrisonersDilemma;
+package PrisonerDilemma;
 
 public class Cheat extends Strategy {
 
