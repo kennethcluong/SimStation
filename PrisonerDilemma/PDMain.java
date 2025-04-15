@@ -1,4 +1,4 @@
-package PrisonersDilemma;
+package PrisonerDilemma;
 
 import mvc.SafeFrame;
 import mvc.Utilities;
