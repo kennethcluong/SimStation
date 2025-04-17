@@ -1,7 +1,7 @@
-package SimStation.plague;
+package plague;
 import mvc.Command;
 import mvc.Model;
-import simStation.World;
+import SimStation.World;
 
 public class NotFatalCommand extends Command{
     World model;
