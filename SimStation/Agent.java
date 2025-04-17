@@ -7,6 +7,7 @@ public abstract class Agent implements Runnable, java.io.Serializable {
     protected String agentName;             // Name identifier
     transient protected Thread myThread;    // Transient because threads are not serializable
     protected boolean suspended;            // Flag to suspend execution
+    protected World world;
     protected boolean stopped;              // Flag to stop execution
 
     public Agent(String name, int x, int y) {
@@ -39,6 +40,11 @@ public abstract class Agent implements Runnable, java.io.Serializable {
         suspended = true;
     }
 
+    public void setManager(World w)
+    {
+        this.world = w;
+    }
+
     // Resume the agent's execution
     public void resumeAgent() {
         suspended = false;
@@ -60,6 +66,7 @@ public abstract class Agent implements Runnable, java.io.Serializable {
             } catch (InterruptedException e) {
                 Utilities.error(e);
             }
+            world.changed
         }
     }
 
