@@ -1,8 +1,8 @@
 
-package SimStation.plague;
+package plague;
 
 import mvc.*;
-import simStation.*;
+import SimStation.*;
 
 public class InfectionProbabilityCommand extends Command {
     World model;
