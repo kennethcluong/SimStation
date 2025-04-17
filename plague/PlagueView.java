@@ -1,7 +1,7 @@
-package SimStation.plague;
+package plague;
 
 import mvc.*;
-import simStation.*;
+import SimStation.*;
 import java.awt.*;
 
 public class PlagueView extends WorldView {
