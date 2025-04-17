@@ -1,7 +1,7 @@
-package SimStation.plague;
+package plague;
 
 import mvc.*;
-import simStation.*;
+import SimStation.*;
 
 public class FatalityRecoveryCommand extends Command {
     World model;
