@@ -1,10 +1,10 @@
-package SimStation.plague;
+package plague;
 
 import mvc.Model;
 import mvc.AppFactory;
 import mvc.View;
 import mvc.Command;
-import simStation.SimStationFactory;
+import SimStation.SimStationFactory;
 
 import javax.swing.JSlider;
 
