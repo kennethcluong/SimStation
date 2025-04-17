@@ -1,9 +1,9 @@
-package SimStation.plague;
+package plague;
 
 import mvc.*;
-import simStation.Heading;
-import simStation.MobileAgent;
-import simStation.Agent;
+import SimStation.Heading;
+import SimStation.MobileAgent;
+import SimStation.Agent;
 
 import java.awt.*;
 
