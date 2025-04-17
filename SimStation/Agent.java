@@ -66,7 +66,7 @@ public abstract class Agent implements Runnable, java.io.Serializable {
             } catch (InterruptedException e) {
                 Utilities.error(e);
             }
-            world.changed
+            world.changed();
         }
     }
 
