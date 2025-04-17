@@ -21,6 +21,7 @@ public abstract class World extends Model {
 
     // Add an agent to the world.
     public void addAgent(Agent a) {
+        a.setManager(this);
         agents.add(a);
     }
 
