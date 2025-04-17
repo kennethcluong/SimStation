@@ -1,4 +1,4 @@
-package simStation.plague;
+package SimStation.plague;
 import mvc.Command;
 import mvc.Model;
 import simStation.World;
