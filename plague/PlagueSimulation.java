@@ -1,7 +1,7 @@
-package SimStation.plague;
+package plague;
 
-import simStation.World;
-import simStation.Agent;
+import SimStation.World;
+import SimStation.Agent;
 import static mvc.Utilities.rng;
 
 public class PlagueSimulation extends World
