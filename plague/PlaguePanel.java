@@ -1,4 +1,4 @@
-package simStation.plague;
+package SimStation.plague;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
