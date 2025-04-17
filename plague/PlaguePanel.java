@@ -1,9 +1,9 @@
-package SimStation.plague;
+package plague;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-import simStation.*;
+import SimStation.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
